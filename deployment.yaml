@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: Jenkins-spring-app-container
-        image: safa318/myappspringboot-image:v1.0
+        image: safa318/Jenkinsmyappspringboot-image:v1.0
         ports:
         - containerPort: 2222
