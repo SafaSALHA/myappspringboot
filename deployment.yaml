@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Jenkins-spring-app-deployment
+  name: jenkins-spring-app-deployment
 spec:
   replicas: 2
   selector:
@@ -13,7 +13,7 @@ spec:
         app: spring-app
     spec:
       containers:
-      - name: Jenkins-spring-app-container
-        image: safa318/Jenkinsmyappspringboot-image:v1.0
+      - name: jenkins-spring-app-container
+        image: safa318/jenkinsmyappspringboot-image:v1.0
         ports:
         - containerPort: 2222
