@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: jenkins-spring-app-deployment
 spec:
-  replicas: 5
+  replicas: 4
   selector:
     matchLabels:
       app: spring-app
